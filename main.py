@@ -20,8 +20,8 @@ def load_config():
     return the data from config.json
     """
     # load the tokens and the account to follow
-    data = {"consumer_key": "", "consumer_secret": "",
-            "access_token": "", "access_token_secret": ""}
+    data = {"5G3GOAfVc9ZNP3W83lPUkvIVv": "", "9oowgDbMlHUR5mZlqbu5nj9VhzGk355dJqlkOPu5ET8dz3FRjq": "",
+            "1271688482793160705-2rGfv6a2WFd8bYZ8DDQW1PjW8lRlDi": "", "Vq31qs4gq9cMXsd07YrsK3d75PZECPKqpKorpwkgzQOCy": ""}
     try:
         with open("config.json", "r") as f:
             data = json.load(f)

@@ -5,10 +5,10 @@ import time
 
 
 def connexion(tokens):
-    consumer_key = tokens["consumer_key"]
-    consumer_secret = tokens["consumer_secret"]
-    access_token = tokens["access_token"]
-    access_token_secret = tokens["access_token_secret"]
+    consumer_key = tokens["5G3GOAfVc9ZNP3W83lPUkvIVv"]
+    consumer_secret = tokens["9oowgDbMlHUR5mZlqbu5nj9VhzGk355dJqlkOPu5ET8dz3FRjq"]
+    access_token = tokens["1271688482793160705-2rGfv6a2WFd8bYZ8DDQW1PjW8lRlDi"]
+    access_token_secret = tokens["Vq31qs4gq9cMXsd07YrsK3d75PZECPKqpKorpwkgzQOCy"]
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)

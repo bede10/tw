@@ -49,7 +49,7 @@ except:
 
 def retweet_for_hashtag(hashtag):
     raw_tweets = tweepy.Cursor(
-        api.search, q=hashtag, lang="en", result_type="latest").items(10)
+        api.search, q=hashtag, lang="en", result_type="recent").items(10)
     try:
         for tweet in raw_tweets:
             print(tweet.text)
